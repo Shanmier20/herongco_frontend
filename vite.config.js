@@ -8,7 +8,7 @@ export default defineConfig({
   plugins: [react()],
   server: {
    allowedHosts: [
-      "herongco-frontend.vercel.app", // ✅ your live Vercel domain
+      "jrmm-inventory-system.vercel.app", // ✅ your live Vercel domain
     ],
     proxy: {
       "/api": {
@@ -19,4 +19,5 @@ export default defineConfig({
     },
   },
 })
+
 
